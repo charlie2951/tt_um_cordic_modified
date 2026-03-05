@@ -62,7 +62,7 @@ wire signed [15:0] y_shift = y >>> iter;
 // Sequential Logic
 //////////////////////////////////////////////////////////
 
-always @(posedge clk or negedge rst_n) begin
+always @(posedge clk ) begin
     if (!rst_n) begin
         busy <= 0;
         done <= 0;
