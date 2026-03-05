@@ -30,6 +30,6 @@ module tt_um_cordic (
               .sin_cos(ui_in[6]),
               .byte_select(ui_in[5:4]),
               .angle_data(ui_in[3:0]),//angle data word wise,send LSB 1st
-              .y(uo_out) //result 16 bit
+      .y({uio_out,uo_out}) //result 16 bit
              );
 endmodule
