@@ -19,8 +19,7 @@ project:
   source_files:
     - "project.v"
     - "controller.v"
-    - "cordic_core.v"
-    - "uart_rx.v"
+    - "cordic.v"
     - "top.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
