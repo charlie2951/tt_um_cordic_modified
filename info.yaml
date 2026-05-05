@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Cordic-based Math processor"      # Project title
+  title:        "Cordic-based Math processor-IEEE"      # Project title
   author:       "Subir Maity, Jitendra Kr. Das"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "CORDIC Implementation of Sine and Cosine function"      # One line description of what your project does
